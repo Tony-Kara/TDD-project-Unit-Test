@@ -13,8 +13,9 @@
 		04E7BB5226BFD18C001316A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7BB5026BFD18C001316A0 /* Main.storyboard */; };
 		04E7BB5426BFD1B1001316A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7BB5326BFD1B1001316A0 /* Assets.xcassets */; };
 		04E7BB5726BFD1B1001316A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7BB5526BFD1B1001316A0 /* LaunchScreen.storyboard */; };
-		04E7BB6226BFD1B2001316A0 /* TDD_project_Unit_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BB6126BFD1B2001316A0 /* TDD_project_Unit_TestTests.swift */; };
 		04E7BB6D26BFD1B2001316A0 /* TDD_project_Unit_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BB6C26BFD1B2001316A0 /* TDD_project_Unit_TestUITests.swift */; };
+		04E7BB7D26BFEC10001316A0 /* SignFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BB7C26BFEC10001316A0 /* SignFormModelValidatorTests.swift */; };
+		04E7BB7F26BFEECF001316A0 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BB7E26BFEECF001316A0 /* SignupFormModelValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +45,12 @@
 		04E7BB5626BFD1B1001316A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E7BB5826BFD1B1001316A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E7BB5D26BFD1B2001316A0 /* TDD project Unit TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD project Unit TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E7BB6126BFD1B2001316A0 /* TDD_project_Unit_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_project_Unit_TestTests.swift; sourceTree = "<group>"; };
 		04E7BB6326BFD1B2001316A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E7BB6826BFD1B2001316A0 /* TDD project Unit TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD project Unit TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E7BB6C26BFD1B2001316A0 /* TDD_project_Unit_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_project_Unit_TestUITests.swift; sourceTree = "<group>"; };
 		04E7BB6E26BFD1B2001316A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E7BB7C26BFEC10001316A0 /* SignFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignFormModelValidatorTests.swift; sourceTree = "<group>"; };
+		04E7BB7E26BFEECF001316A0 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				04E7BB5326BFD1B1001316A0 /* Assets.xcassets */,
 				04E7BB5526BFD1B1001316A0 /* LaunchScreen.storyboard */,
 				04E7BB5826BFD1B1001316A0 /* Info.plist */,
+				04E7BB7E26BFEECF001316A0 /* SignupFormModelValidator.swift */,
 			);
 			path = "TDD project Unit Test";
 			sourceTree = "<group>";
@@ -113,8 +116,8 @@
 		04E7BB6026BFD1B2001316A0 /* TDD project Unit TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				04E7BB6126BFD1B2001316A0 /* TDD_project_Unit_TestTests.swift */,
 				04E7BB6326BFD1B2001316A0 /* Info.plist */,
+				04E7BB7C26BFEC10001316A0 /* SignFormModelValidatorTests.swift */,
 			);
 			path = "TDD project Unit TestTests";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 					};
 					04E7BB5C26BFD1B2001316A0 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = 04E7BB4626BFD18C001316A0;
 					};
 					04E7BB6726BFD1B2001316A0 = {
@@ -260,6 +264,7 @@
 			files = (
 				04E7BB4F26BFD18C001316A0 /* ViewController.swift in Sources */,
 				04E7BB4B26BFD18C001316A0 /* AppDelegate.swift in Sources */,
+				04E7BB7F26BFEECF001316A0 /* SignupFormModelValidator.swift in Sources */,
 				04E7BB4D26BFD18C001316A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E7BB6226BFD1B2001316A0 /* TDD_project_Unit_TestTests.swift in Sources */,
+				04E7BB7D26BFEC10001316A0 /* SignFormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +479,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WT77VV47BZ;
 				INFOPLIST_FILE = "TDD project Unit TestTests/Info.plist";
@@ -485,6 +491,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tony-kara.TDD-project-Unit-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD project Unit Test.app/TDD project Unit Test";
@@ -496,6 +503,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WT77VV47BZ;
 				INFOPLIST_FILE = "TDD project Unit TestTests/Info.plist";
